@@ -48,6 +48,6 @@ This project is inspired by Pr 2: Shell
 
 ## Presentation Link
 **Slides:** https://docs.google.com/presentation/d/1swuYxPgi8jTHWa7ATvPPRex1HR-IhHUqeSDx0xeW-Fo/edit?usp=sharing
-**Video:** https://drive.google.com/file/d/1P4YTuqyeSm6ZBQ3vXBDpFBTpUYnkisGI/view?usp=sharing
+**Video:** [https://drive.google.com/file/d/1P4YTuqyeSm6ZBQ3vXBDpFBTpUYnkisGI/view?usp=sharing](https://drive.google.com/file/d/1P4YTuqyeSm6ZBQ3vXBDpFBTpUYnkisGI/view?usp=sharing)
 <br>
 
