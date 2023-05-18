@@ -11,7 +11,7 @@ fn main() {
     Command::new("cargo").arg("build").output().unwrap();
     
     let mut cmd = String::new(); // Create a mutable string variable to store user input
-    let mut cmd_tokens: [*mut i8; 25] = [std::ptr::null_mut(); 25]; // Create an array of 25 mutable raw pointers initialized to null
+    let mut cmd_tokens: [*mut i8; 25] = [std::ptr::null_mut(); 25];// Create an array of 25 mutable raw pointers initialized to null. i8 is commonly the Rust type used to represent C characters
 
     print!("tsh> ");
     io::stdout().flush().unwrap(); // Flush the output to ensure the prompt is displayed immediately
@@ -24,7 +24,6 @@ fn main() {
 
         if !cmd.is_empty() {
             unsafe {
-                //i8 is commonly the Rust type used to represent C characters
                 let cmd_ptr = cmd.as_mut_ptr() as *mut i8; // Convert the command string to a mutable raw pointer.
                 let tokens_ptr = cmd_tokens.as_mut_ptr() as *mut *mut i8; // Get a mutable raw pointer to the array of tokens
 
